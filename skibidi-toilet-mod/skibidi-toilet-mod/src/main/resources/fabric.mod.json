@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "skibiditoiletmod",
+  "version": "${version}",
+  "name": "Skibidi Toilet Mod",
+  "description": "Adds a hostile Skibidi Toilet mob that attacks by extending its head. Right-click it to flush it away.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/skibiditoiletmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.skibiditoiletmod.SkibidiToiletMod"],
+    "client": ["net.skibiditoiletmod.client.SkibidiToiletModClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
